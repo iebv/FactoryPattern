@@ -9,6 +9,7 @@ namespace Factory_Pattern_First_Look
     {
         static void Main(string[] args)
         {
+            
             #region Create Order
             Console.Write("Recipient Country: ");
             var recipientCountry = Console.ReadLine().Trim();
@@ -38,9 +39,25 @@ namespace Factory_Pattern_First_Look
 
             order.LineItems.Add(new Item("CSHARP_SMORGASBORD", "C# Smorgasbord", 100m), 1);
             order.LineItems.Add(new Item("CONSULTING", "Building a website", 100m), 1);
+
+
+            IPurchaseProviderFactory purchaseProviderFactory;
+
+            if (order.Sender.Country == "Sweden")
+            {
+                purchaseProviderFactory = new SwedenPurchaseProviderFactory();
+            }
+            if (order.Sender.Country == "Australia")
+            {
+                purchaseProviderFactory = new AustraliaPurchaseProviderFactory();
+            }
+            else
+            {
+                throw new Exception("Sender country not supported");
+            }
             #endregion
 
-            var cart = new ShoppingCart(order, new StandardShippingProviderFactory());
+            var cart = new ShoppingCart(order, purchaseProviderFactory);
 
             var shippingLabel = cart.Finalize();
 
