@@ -43,17 +43,14 @@ namespace Factory_Pattern_First_Look
 
             IPurchaseProviderFactory purchaseProviderFactory;
 
-            if (order.Sender.Country == "Sweden")
+            var factoryProvider = new PurchaseProviderFactoryProvider();
+
+            purchaseProviderFactory = factoryProvider.CreateFactoryFor(order.Sender.Country);
+
+
+            if(purchaseProviderFactory == null)
             {
-                purchaseProviderFactory = new SwedenPurchaseProviderFactory();
-            }
-            if (order.Sender.Country == "Australia")
-            {
-                purchaseProviderFactory = new AustraliaPurchaseProviderFactory();
-            }
-            else
-            {
-                throw new Exception("Sender country not supported");
+                throw new NotSupportedException("Sender country has no purchase provider");
             }
             #endregion
 
