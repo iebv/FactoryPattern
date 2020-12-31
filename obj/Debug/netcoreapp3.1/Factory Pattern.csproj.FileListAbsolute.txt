@@ -1,0 +1,13 @@
+C:\Users\balivn01\Desktop\c-sharp-design-patterns-factory-abstract\02\demos\Demo 1 - Factory Pattern First Look\FactoryPattern\bin\Debug\netcoreapp3.1\Factory Pattern.exe
+C:\Users\balivn01\Desktop\c-sharp-design-patterns-factory-abstract\02\demos\Demo 1 - Factory Pattern First Look\FactoryPattern\bin\Debug\netcoreapp3.1\Factory Pattern.deps.json
+C:\Users\balivn01\Desktop\c-sharp-design-patterns-factory-abstract\02\demos\Demo 1 - Factory Pattern First Look\FactoryPattern\bin\Debug\netcoreapp3.1\Factory Pattern.runtimeconfig.json
+C:\Users\balivn01\Desktop\c-sharp-design-patterns-factory-abstract\02\demos\Demo 1 - Factory Pattern First Look\FactoryPattern\bin\Debug\netcoreapp3.1\Factory Pattern.runtimeconfig.dev.json
+C:\Users\balivn01\Desktop\c-sharp-design-patterns-factory-abstract\02\demos\Demo 1 - Factory Pattern First Look\FactoryPattern\bin\Debug\netcoreapp3.1\Factory Pattern.dll
+C:\Users\balivn01\Desktop\c-sharp-design-patterns-factory-abstract\02\demos\Demo 1 - Factory Pattern First Look\FactoryPattern\bin\Debug\netcoreapp3.1\Factory Pattern.pdb
+C:\Users\balivn01\Desktop\c-sharp-design-patterns-factory-abstract\02\demos\Demo 1 - Factory Pattern First Look\FactoryPattern\obj\Debug\netcoreapp3.1\Factory Pattern.csprojAssemblyReference.cache
+C:\Users\balivn01\Desktop\c-sharp-design-patterns-factory-abstract\02\demos\Demo 1 - Factory Pattern First Look\FactoryPattern\obj\Debug\netcoreapp3.1\Factory Pattern.AssemblyInfoInputs.cache
+C:\Users\balivn01\Desktop\c-sharp-design-patterns-factory-abstract\02\demos\Demo 1 - Factory Pattern First Look\FactoryPattern\obj\Debug\netcoreapp3.1\Factory Pattern.AssemblyInfo.cs
+C:\Users\balivn01\Desktop\c-sharp-design-patterns-factory-abstract\02\demos\Demo 1 - Factory Pattern First Look\FactoryPattern\obj\Debug\netcoreapp3.1\Factory Pattern.csproj.CoreCompileInputs.cache
+C:\Users\balivn01\Desktop\c-sharp-design-patterns-factory-abstract\02\demos\Demo 1 - Factory Pattern First Look\FactoryPattern\obj\Debug\netcoreapp3.1\Factory Pattern.dll
+C:\Users\balivn01\Desktop\c-sharp-design-patterns-factory-abstract\02\demos\Demo 1 - Factory Pattern First Look\FactoryPattern\obj\Debug\netcoreapp3.1\Factory Pattern.pdb
+C:\Users\balivn01\Desktop\c-sharp-design-patterns-factory-abstract\02\demos\Demo 1 - Factory Pattern First Look\FactoryPattern\obj\Debug\netcoreapp3.1\Factory Pattern.genruntimeconfig.cache
